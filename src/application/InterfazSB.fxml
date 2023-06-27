@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="Fondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: aqua;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <Circle fill="#c1ff1f" layoutX="249.0" layoutY="386.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="566.0" layoutY="263.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="btnTutorial" layoutX="269.0" layoutY="212.0" mnemonicParsing="false" onAction="#Tutorial" style="-fx-background-color: #Fe0000;" text="Tutorial" textFill="WHITE" AnchorPane.leftAnchor="258.0" AnchorPane.rightAnchor="265.0" />
+      <Button fx:id="btnOpciones" layoutX="265.0" layoutY="250.0" mnemonicParsing="false" onAction="#Opciones" style="-fx-background-color: #Fe0000;" text="Opciones" textFill="WHITE" AnchorPane.leftAnchor="258.0" AnchorPane.rightAnchor="265.0" />
+      <Button fx:id="btnCreditos" layoutX="266.0" layoutY="286.0" mnemonicParsing="false" onAction="#Creditos" style="-fx-background-color: #Fe0000;" text="Creditos" textFill="WHITE" />
+      <Button fx:id="btnSalir" layoutX="277.0" layoutY="321.0" mnemonicParsing="false" onAction="#Salir" style="-fx-background-color: #Fe0000;" text="Salir" textFill="WHITE" />
+      <Button fx:id="btnJugar" layoutX="258.0" layoutY="155.0" maxHeight="48.0" maxWidth="80.0" minHeight="45.0" minWidth="77.0" mnemonicParsing="false" onAction="#Jugar" prefHeight="45.0" prefWidth="77.0" style="-fx-background-color: #Fe0000;" text="Jugar" textFill="WHITE" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="258.0" AnchorPane.rightAnchor="265.0" AnchorPane.topAnchor="155.0" />
+      <Circle fill="#1fff49" layoutX="68.0" layoutY="178.0" radius="81.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ff1f1f" layoutX="403.0" layoutY="76.0" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
